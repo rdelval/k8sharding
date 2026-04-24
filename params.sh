@@ -17,8 +17,10 @@ SECRET_NAME="db-user-pass-rsa"
 PWDFILE="${RSADIR}/pwdfile.txt"
 PWDFILE_ENC="${RSADIR}/pwdfile.enc"
 
-# Sample credentials for docker registry secret (replace with real values)
+# Password used for DB users
 MYPWD="SamplePassword123!"
+
+# Sample credentials for docker registry secret (replace with real values)
 DOCK_USER="sample.user@example.com"
 DOCK_PWD="SampleDockPassword123!"
 DOCK_EMAIL="sample.user@example.com"
